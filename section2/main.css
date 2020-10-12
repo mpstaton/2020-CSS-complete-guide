@@ -1,15 +1,28 @@
+/*
+box-sizing property changes whether a margin is built in. 
+the default is set to content-box, which keeps a margin of 8px
+resetting 
+*/
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Manrope', sans-serif;
     margin: 0;    
 }
 
+/* border is an example of shorthand properties, 
+where they can be called in quick succession with a space as a separator. 
+border-style: solid;
+border-color: black;
+border-width: 5px;
+*/
+
 #product-overview {
     background: red;
     padding: 20px;
-    /*border-style: solid;
-    border-color: black;
-    border-width: 5px;
-    */
     border: 5px solid black;
     margin: 20px;
     width: 100%;
@@ -27,4 +40,10 @@ h1 {
 
 .section-title {
     color: #2ddf5c;
+}
+
+.main-header {
+    width: 100%;
+    background: #2ddf5c;
+    padding: 8px 16px
 }
