@@ -1,7 +1,11 @@
-section {
+#product-overview {
     background: red;
 }
 
 h1 {
     font-family: 'Manrope', sans-serif;
+}
+
+.section-title {
+    color: #2ddf5c;
 }
