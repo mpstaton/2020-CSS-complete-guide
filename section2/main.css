@@ -1,5 +1,12 @@
 #product-overview {
     background: red;
+    padding: 20px;
+    /*border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    */
+    border: 5px solid black;
+    margin: 20px;
 }
 
 #product-overview h1 {
