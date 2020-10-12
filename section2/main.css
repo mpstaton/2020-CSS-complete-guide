@@ -2,6 +2,11 @@
     background: red;
 }
 
+#product-overview h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
 h1 {
     font-family: 'Manrope', sans-serif;
 }
