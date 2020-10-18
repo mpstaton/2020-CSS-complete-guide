@@ -74,4 +74,18 @@ h1 {
 
 .main-nav__item {
     display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+/*this is a grouping*/
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: white;
 }
